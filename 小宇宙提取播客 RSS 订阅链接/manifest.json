@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "小宇宙提取播客 RSS 订阅链接",
+  "version": "1.0",
+  "description": "A simple tool to extract audio source links from pages.",
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/icon16.png"
+  }
+}
